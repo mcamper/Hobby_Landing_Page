@@ -27,6 +27,8 @@ h2  {
     margin: 0 auto;
     display: block;
     align-items: center;
+    border: none;
+    margin-top: 20px;
     
 }
 
@@ -65,6 +67,7 @@ p {
     margin: 15px 0;
 }
 .grid img:hover {
+    cursor: pointer;
     
 }
 .grid img {
@@ -77,8 +80,9 @@ p {
     width: 100%;
 }
 .container-fluid img:hover {
-    /* transform: scale(2);
-    transition: all 150ms ease-in-out; */
+     /* transform: scale(2); */
+     cursor: pointer;
+    
 
 }
 a:link {
@@ -86,7 +90,7 @@ a:link {
     
 } 
 a:visited {
-    color: #6435c9; 
+    color:#885DF1 
 } 
 a:hover {
     color: blue;
